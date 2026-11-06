@@ -33,7 +33,7 @@ To start, it is highly recommended that you create a new repository on your loca
     git push origin main
     ```
 
-## Part 2: Create the Pipeline (The "Workflow")
+## Part 2: Create the Workflow
 
 GitHub looks for special instructions in a folder named `.github`.
 
@@ -55,7 +55,7 @@ GitHub looks for special instructions in a folder named `.github`.
         
         steps:
         - name: Say Hello
-            run: echo "The pipeline is working!"
+            run: echo "The workflow is working!"
     ```
 4. Commit and push the file.
 5. Directly after pushing, go to the `Actions` tab at GitHub and observe the workflow running.
