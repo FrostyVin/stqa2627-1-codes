@@ -22,3 +22,6 @@ locust==2.42.0
 
 # Linting
 flake8==7.3.0
+
+# Playwright
+pytest-playwright==0.10.0
